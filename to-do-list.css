@@ -1,0 +1,70 @@
+body {
+	color: #ffffff;
+	background-color: #455a64;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#addScreen {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+input {
+	background-color: #212121;
+	color: white;
+	justify-self: center;
+	align-self: center;
+	width: 40vw;
+	height: 10vh;
+	font-size: 30px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+form {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+h1 {
+	width: 50vw;
+	text-align: center;
+	font-size: 60px;
+}
+#button {
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+}
+
+#submit {
+	margin-top: 30px;
+	border-radius: 10px;
+	width: 7.5vw;
+	height: 7.5vh;
+	color: white;
+	background: #536dfe;
+}
+
+#check {
+	font-size: 30px;
+	text-align: center;
+}
+#list {
+	width: 40vw;
+	height: auto;
+	margin-top: 60px;
+	overflow-wrap: normal;
+	justify-self: center;
+	align-self: center;
+	font-size: 30px;
+	color: white;
+}
+.cross {
+	text-decoration-line: line-through;
+	text-decoration-color: #536dfe;
+}
